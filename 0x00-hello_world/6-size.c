@@ -8,7 +8,7 @@ int main(void)
   long int mylongint;
   long long int mylonglongint;
   float myfloat;
-  
+
   printf("Size of a char: %lu bytes(s)\n", (unsigned long)sizeof(mychar));
   printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(myint));
   printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(mylongint));
