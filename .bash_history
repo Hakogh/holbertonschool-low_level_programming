@@ -1,143 +1,3 @@
-sudo apt-get install git
-git clone https://github.com/Hakogh/holberton-system_engineering-devops.git
-git --version
-git config --global user.name "hakogh"
-git config --global user.email "cr7.4ever@live.fr"
-git config --list
-ls
-cd holberton-system_engineering-devops/
-ls
-git add .
-git commit -m "print"
-git push origin master
-ls
-cd ..
-ls
-emacs README.md 
-git add .
-git commit -m ""
-git push origin master 
-ls
-cd holberton-system_engineering-devops/
-ls
-cd 0x00-shell_basics/
-ls
-pwd
-ls
-emacs 0-current_working_directory 
-ls
-#!/bin/bah pwd
-chmoud u+x file
-ls
-cd holberton-system_engineering-devops/
-ls
-emacs README.md
-git add .
-git commit -m "shell"
-git push
-ls
-cd 0x00-shell_basics/
-emacs README.md
-git add .
-git commit -m "shll"
-git push
-ls
-emacs 0-current_working_directory
-git add .
-git commit -m "print"
-git push
-ls
-emacs 0-current_working_directory 
-git add .
-git commit -m "p"
-git push
-emacs 0-current_working_directory 
-emcas 0-current_working_directory 
-emacs 0-current_working_directory 
-git add .
-git commit -m "prnt"
-git push
-chmoud u+x file
-chmoud u+x 0-current_working_directory 
-chmod u+x 0-current_working_directory 
-git add .
-git commit -m "prt"
-git push
-emacs 1-listit
-git add .
-git commit -m "list"
-git push
-chmod u+x 1-listit 
-git add .
-git commt -m "lst"
-git push
-ls
-emacs 1-listit 
-chmod u+x 1-listit
-git add .
-git commit -m "lst"
-git push
-emacs 2-bring_me_home
-chmod u+x 2-bring_me_home
-git add .
-git commit -m "home"
-git push
-ls
-emacs 2-bring_me_home
-chmod u+x 2-bring_me_home
-git add .
-git commit -m "home"
-git push
-cd 
-ls
-cd holberton-system_engineering-devops/
-mkdir 0x01_shell_permissions
-emacs 0-iam_betty
-chmod u+x 0-iam_betty
-git add .
-git commit -m "betty"
-git push
-ls
-rm -r 0x01_shell_permissions/
-rm -r 0-iam_betty 
-ls
-mkdir 0x01-shell_permissions
-cd 0x01-shell_permissions/
-emacs 0-iam_betty
-git add .
-git commit -m "betty"
-git push
-ls
-cd
-ls
-cd ..
-ls
-cd
-ls
-cd holberton-system_engineering-devops/
-ls
-cd 0x01-shell_permissions/
-ls
-emacs 0-iam_betty 
-chmod u+x 0-iam_betty 
-git add .
-cat 0-iam_betty 
-chmod u+x 0-iam_betty
-./ 0-iam_betty 
-cat 0-iam_betty 
-ls
-su betty
-git add .
-git commit -m "betty"
-git push 
-cd ..
-ls
-cd 0x01-shell_permissions/
-emacs README.md
-ls
-git add .
-git commit -m "im"
-git push
 ls
 emacs 1-who_am_i
 chmod 1-who_am_i
@@ -1923,3 +1783,218 @@ Actually, we can use the ls command to list the contents of any directory, not j
 clear
 ls
 exit
+ls
+cd holbertonschool-low_level_programming/
+ls
+cd 0x00-hello_world
+ls
+cat c
+rm -r c
+ls
+emacs README.md
+git add README.md
+git commit -m "readme"
+git push
+ls
+ls -la
+ls
+emacs 1-compiler
+chmod u+x 1-compiler
+git add .
+git commit -m "compl"
+git push
+ls
+git push
+ls
+emacs 2-assembler
+chmod u+x 2-assembler
+git add .
+git commit -m "asmbl"
+git push
+git push origin master
+ls
+git add .
+git commit -m "fix"
+git push
+git pull --rebase
+git pull --rebase origin master
+git push origin master
+git pull
+git push
+ls
+emacs 3-name
+chmod u+x 3-name
+git add .
+git commit -m "name"
+git push
+ls
+emacs 4-puts.c
+ls
+chmod u+x 4-puts.c
+ls
+git add .
+git commit -m "firctc"
+git push
+emacs 5-printf.c
+chmod u+x 5-printf.c
+cat 4-puts.c
+emacs 4-puts.c
+git add .
+git commit -m "print"
+git push
+ls
+gcc -Wall 5-printf.c
+emacs 4-puts.c
+emacs 5-printf.c
+gcc -Wall 5-printf.c
+emacs 4-puts.c
+emacs 5-printf.c
+gcc -Wall 5-printf.c
+ls
+git add .
+git commit -m "fix"
+git push
+gcc -Wall 4-puts.c
+ls
+cd
+libc6-dev-i386
+sudo apt-get update
+sudo apt-get install libc6-dev-i386
+ls
+cd holbertonschool-low_level_programming/
+ls
+cd 0x00-hello_world/
+ls
+emacs 6-size.c
+chmod 6-size.c
+chmod u+x 6-size.c
+ls
+gcc 6-size.c 
+eamcs 6-size.c
+emacs 6-size.c
+gcc -Wall 6-size.c
+emacs 6-size.c
+gcc -Wall 6-size.c
+emacs 6-size.
+rm -r 6-size.
+ls
+rm -r 6-size.c~
+ls
+cat a.out
+rm -r a.out
+ls
+clear
+emacs 6-size.c 
+gcc -Wall 6-size.c
+ls
+rm -r 6-size.c~
+cat a.out 
+rm -r a.out 
+ls
+gcc 6-size.c
+ls
+rm -r 6-size.c
+git add .
+git commit -m"size"
+git push
+ls
+clear
+ls
+cat 5-printf.c
+rm -r a.out
+ls
+emacs 6-size.c
+chmod u+x 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+ls
+rm- -r a.out 6-size.c~
+ls
+rm -r a.out
+rm -r 6-size.c~
+ls
+git add 6-size.c
+git commit -m "size"
+git push
+ls
+emacs 1-compiler
+git add .
+git add 1-compiler
+git commit -m "fix"
+git push
+ls
+emacs 1-compiler
+emacs 2-assembler
+git add .
+git add 2-assembler
+git commit -m "fix"
+git push
+ls
+ls -la
+ls
+emacs 4-puts.c
+rm -r 4-puts.c
+ls
+emacs 4-puts.c
+ls
+gcc -Wall 4-puts.c
+ls
+git add 4-puts.c
+git commit -m "fix"
+git push
+ls
+eamcs 5-printf.c
+emacs 5-printf.c
+rm -r 5-printf.c
+ls
+emacs 5-printf.c
+emacs 6-size.c
+rm -r 6-size.c
+emacs 6-size.c
+ls
+rm -r a.out
+git add .
+git add 5-printf.c
+git add 6-size.c
+git commit -m "fix"
+git push
+ls
+gcc 6-size.c -m32 2> /tmp/32
+gcc 6-size.c -m64 2> /tmp/64
+gcc 6-size.c -m32 -o size32 2> /tmp/32
+gcc 6-size.c -m64 -o size64 2> /tmp/64
+./size32
+ls
+rm -r a.out
+ls
+rm -r size32
+rm -r size64 
+ls
+gcc -Wall 5-printf.c
+./a.out
+ls
+rm -r a.out
+ls
+./3-name
+export CFILE=main.c
+cat main.c
+ls
+export CFILE=main.c
+cat main.c
+emacs 1-compiler
+emacs 0-preprocessor
+cat main.c
+ls
+emacs 2-assembler
+emacs 4-puts.c
+git add .
+git add 4-puts.c
+git commit -m "fixit"
+git push
+git add .
+git add 4-puts.c
+git commit -m "fix4"
+git push origin master
+ls
+emacs 4-puts.c
