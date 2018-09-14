@@ -6,15 +6,15 @@
 */
 
 int main(void)
-
-{
-char c;
-
-for (c = 'z'; c >= 'a'; c--)
-
 {
 
-putchar(c);
+char ch;
+
+for (ch = 'z'; ch >= 'a'; ch--)
+
+{
+
+putchar(ch);
 
 }
 

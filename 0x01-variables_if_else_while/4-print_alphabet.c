@@ -7,14 +7,14 @@
 
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-if (ch == 'q' || ch == 'e')
+if (c == 'q' || c == 'e')
 {
 continue;
 }
-putchar (ch);
+putchar (c);
 }
 putchar ('\n');
 return (0);
