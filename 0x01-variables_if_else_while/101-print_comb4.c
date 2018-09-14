@@ -8,8 +8,6 @@
 
 int main(void)
 {
-int main(void)
-{
 int i, j, k;
 i = '0';
 j = i + 1;
