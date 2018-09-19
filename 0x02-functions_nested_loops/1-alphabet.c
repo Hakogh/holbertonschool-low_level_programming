@@ -1,19 +1,19 @@
 #include "holberton.h"
 
 /**
-* main - check the code for Holberton School students.
+*print_alphabet- use only user defined variables to create output
 *
-* Return: Always 0.
+*Return: print to stdout the alphabet, in lowercase, followed by a new line.
 */
 
 void print_alphabet(void)
 
 {
-char c = 'a';
-while (c <= 'z')
+
+int i = 0;
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(c);
-c++;
+_putchar(i);
 }
 _putchar('\n');
 }
