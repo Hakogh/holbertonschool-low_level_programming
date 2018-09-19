@@ -7,24 +7,21 @@
 
 int main(void)
 {
-int count = 2;
-long int a = 1, b = 2;
-long int k;
+unsigned int i;
+unsigned long int a = 1, b = 2;
+unsigned long int c;
+
 printf("%lu, ", a);
-while (count <= 50)
+
+for (i = 0; i <= 48; i++)
 {
-if (count == 50)
-{
-printf("%lu\n", 2);
-}
-else
-{
+c = a + b;
+a = b;
+b = c;
+if (i < 48)
 printf("%lu, ", b);
-}
-k = b;
-b += a;
-a = k;
-count++;
+else
+printf("%lu\n", b);
 }
 return (0);
 }
