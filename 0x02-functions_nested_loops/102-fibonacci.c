@@ -6,13 +6,14 @@
 */
 
 int main(void)
+
 {
 unsigned int i;
-unsigned long int a = 1, b = 2;
+unsigned long int a = 1;
+unsigned long int b = 1;
 unsigned long int c;
 
 printf("%lu, ", a);
-
 for (i = 0; i <= 48; i++)
 {
 c = a + b;
