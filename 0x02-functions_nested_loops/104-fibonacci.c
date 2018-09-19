@@ -9,13 +9,15 @@
 int main(void)
 
 {
-int i, sum1 = 1, sum2 = 2, nextTerm;
-for (i = 1; i <= 98; ++i)
+int i=0, n=98;
+unsigned long int sum1 = 1, sum2 = 1, nextTerm=1;
+for (i = 0; i < n; i++)
 {
-printf("%d, ", sum1);
-nextTerm = sum1 + sum2;
+printf("%lu, ", nextTerm);
 sum1 = sum2;
 sum2 = nextTerm;
+nextTerm = sum1 + sum2;
 }
+printf("\n");
 return (0);
 }
