@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - prints the first 98 Fibonacci numbers.
+* main - check the code for Holberton School students.
 *
 * Return: Always 0.
 */
@@ -9,14 +9,14 @@
 int main(void)
 
 {
-int i=0, n=98;
-unsigned long int sum1 = 1, sum2 = 1, nextTerm=1;
+unsigned long int first = 1, second = 1, next_num = 1;
+int i = 0, n = 98;
 for (i = 0; i < n; i++)
 {
-printf("%lu, ", nextTerm);
-sum1 = sum2;
-sum2 = nextTerm;
-nextTerm = sum1 + sum2;
+printf("%lu, ", next_num);
+first = second;
+second = next_num;
+next_num = first + second;
 }
 printf("\n");
 return (0);
