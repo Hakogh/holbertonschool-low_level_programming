@@ -16,9 +16,9 @@ int sum = 0;
 while (i < 1024)
 {
 if (i % 3 == 0)
-total += i;
+sum += i;
 else if (i % 5 == 0)
-total += i;
+sum += i;
 i++;
 }
 printf("%d\n", sum);
