@@ -13,7 +13,7 @@ for (i = 2 ; num != 1; ++i)
 {
 while (num % i == 0)
 {
-num / = i;
+num /= i;
 large = i;
 }
 }
